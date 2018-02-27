@@ -4,18 +4,16 @@
 target 'Ins_clone' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-
   # Pods for Ins_clone
-
-  target 'Ins_cloneTests' do
-    inherit! :search_paths
-    # Pods for testing
-    pod 'Parse'
-  end
-
-  target 'Ins_cloneUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
+  pod 'Parse'
+  pod 'Parse/UI'
 end
+
+target 'Ins_cloneTests' do
+    # Pods for testing
+end
+
+target 'Ins_cloneUITests' do
+    # Pods for testing
+end
+
