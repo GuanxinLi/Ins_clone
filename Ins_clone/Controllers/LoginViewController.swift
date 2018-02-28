@@ -16,10 +16,10 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var signUpButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        loginButton.layer.cornerRadius = 30
+        loginButton.layer.cornerRadius = 15
         loginButton.clipsToBounds = true
         
-        signUpButton.layer.cornerRadius = 30
+        signUpButton.layer.cornerRadius = 15
         signUpButton.clipsToBounds = true
     }
 
