@@ -22,6 +22,7 @@
 		70B47C012045069C00BB3D38 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B47C002045069C00BB3D38 /* ProfileViewController.swift */; };
 		70B47C0320451BA700BB3D38 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B47C0220451BA700BB3D38 /* Post.swift */; };
 		70B47C092045327300BB3D38 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B47C082045327300BB3D38 /* PostTableViewCell.swift */; };
+		70F94F9220463E3D00E4F14A /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F94F9120463E3D00E4F14A /* DetailedViewController.swift */; };
 		FF175895C99592ADEF8D1826 /* libPods-Ins_cloneTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FFBA2845E60839DC991CC95 /* libPods-Ins_cloneTests.a */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +69,7 @@
 		70B47C002045069C00BB3D38 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		70B47C0220451BA700BB3D38 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		70B47C082045327300BB3D38 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		70F94F9120463E3D00E4F14A /* DetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
 		A67DF72386BEBCB30D7D426B /* Pods-Ins_cloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ins_cloneTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ins_cloneTests/Pods-Ins_cloneTests.release.xcconfig"; sourceTree = "<group>"; };
 		F0008961A61D4E1740DF9A57 /* Pods-Ins_clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ins_clone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ins_clone/Pods-Ins_clone.debug.xcconfig"; sourceTree = "<group>"; };
 		F88208B31C34F17ED26E253C /* Pods-Ins_clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ins_clone.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ins_clone/Pods-Ins_clone.release.xcconfig"; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 		70B47BFD2044DCCC00BB3D38 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				70F94F9120463E3D00E4F14A /* DetailedViewController.swift */,
 				70245C1420440D2C0037A5B2 /* LoginViewController.swift */,
 				70B47BFB2044DCC200BB3D38 /* PhotoMapViewController.swift */,
 				70AE9C982041C42A0034D0BA /* ViewController.swift */,
@@ -501,6 +504,7 @@
 				70AE9C992041C42A0034D0BA /* ViewController.swift in Sources */,
 				70B47C092045327300BB3D38 /* PostTableViewCell.swift in Sources */,
 				70B47BFC2044DCC200BB3D38 /* PhotoMapViewController.swift in Sources */,
+				70F94F9220463E3D00E4F14A /* DetailedViewController.swift in Sources */,
 				70AE9C972041C42A0034D0BA /* AppDelegate.swift in Sources */,
 				70B47C0320451BA700BB3D38 /* Post.swift in Sources */,
 				70B47BFF2044DEE100BB3D38 /* PhotosViewController.swift in Sources */,

@@ -13,14 +13,15 @@ class ProfileViewController: UIViewController {
 
     @IBOutlet weak var logOffButton: UIButton!
     @IBAction func logOff(_ sender: UIButton) {
-        dismiss(animated: true, completion: nil)
+        //dismiss(animated: true, completion: nil)
         self.performSegue(withIdentifier: "logoutSegue", sender: nil)
-        PFUser.logOutInBackground{ _ in
+        PFUser.logOutInBackground()
+        /*{ _ in
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             if let rootHome = storyboard.instantiateViewController(withIdentifier: "LoginViewController") as? LoginViewController {
                 UIApplication.shared.keyWindow?.rootViewController = rootHome
                 }
-        }
+        }*/
     }
     
     override func viewDidLoad() {
